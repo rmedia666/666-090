@@ -1,0 +1,409 @@
+/* cta button animation */
+
+body {
+    background-color: black;
+}
+
+.modal-content {
+    background-color: rgba(255, 255, 255, 0);
+    border: 0;
+}
+
+.txt-format {
+    color: #fffcca;
+    text-align: center;
+    font-weight: bold;
+}
+
+#carousel-records {
+    width: 40vw;
+}
+
+.carousel-container {
+    margin-top: 115vw;
+    position: absolute;
+}
+
+.carousel-container img {
+    width: 30vw;
+}
+
+
+@media only screen and (min-width:770px) {
+
+    .section-1 {
+        content: url(bg.png);
+        height: 155vw;
+        width: 36vw;
+        position: relative;
+    }
+
+    .logo {
+        content: url(logo.png);
+        width: 36vw;
+        position: absolute;
+        z-index: 1;
+    }
+
+    .header {
+        content: url(banner-cn.png);
+        width: 36.5%;
+        position: absolute;
+    }
+
+    .btn-1 {
+        position: absolute;
+        cursor: pointer;
+        width: 29%;
+        margin-top: 43vw;
+        z-index: 1;
+        content: url(cta1.png);
+    }
+
+    .wheel-bg {
+        content: url(bg-wheel.png);
+        position: absolute;
+        width: 32vw;
+        margin-top: 56vw;
+    }
+
+    .coin-l {
+        content: url(coin1.png);
+        position: absolute;
+        width: 9vw;
+        margin-top: 68vw;
+        left: 31.6vw;
+    }
+
+    .coin-r {
+        content: url(coin2.png);
+        position: absolute;
+        width: 8vw;
+        margin-top: 71vw;
+        right: 30.6vw;
+    }
+
+    .jackpot {
+        content: url(jackpot.png);
+        position: absolute;
+        width: 24%;
+        margin-top: 52vw;
+    }
+
+    .jackpot_amnt {
+        position: absolute;
+        color: #ff8b07;
+        font-weight: bold;
+        font-size: 2.4vw;
+        margin-top: 57vw;
+    }
+
+    .wheel-border {
+        content: url(wheel-border.png);
+        width: 35vw;
+        position: absolute;
+        margin-top: 59vw;
+        z-index: 1;
+    }
+
+
+    .bg-wheel {
+        content: url(bg-wheel.png);
+        width: 35vw;
+        position: absolute;
+        margin-top: 4%;
+    }
+
+    .d-wheel {
+        content: url(wheel.png);
+        width: 20vw;
+        position: absolute;
+        margin-top: 69.7vw;
+        z-index: 2;
+    }
+
+
+    .spin {
+        content: url(spin.png);
+        width: 5%;
+        position: absolute;
+        margin-top: 76.5vw;
+        cursor: pointer;
+        z-index: 3;
+    }
+
+    .d-stand {
+        content: url(stand.png);
+        position: absolute;
+        width: 19vw;
+        height: 7vw;
+        margin-top: 90vw;
+    }
+
+    .btn2 {
+        content: url(spin_btn.png);
+        position: absolute;
+        width: 28%;
+        margin-top: 96vw;
+        z-index: 3;
+    }
+
+    .timer {
+        position: absolute;
+        text-align: center;
+        color: white;
+        font-weight: bold;
+        font-size: 1.4vw;
+        margin-top: 105vw;
+    }
+
+    .payment {
+        content: url(games.png);
+        position: absolute;
+        margin-top: 110vw;
+        width: 34%;
+    }
+
+    .modal-bg-1 {
+        background-image: url(modal_btn_bg.png);
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    .d-modal_btn1 {
+        margin: 38% 0% 5% 0%;
+        width: 40%;
+        cursor: pointer;
+    }
+
+    .d-modal_btn2 {
+        margin-top: -41%;
+        width: 70%;
+        cursor: pointer;
+        position: relative;
+        z-index: 1;
+    }
+
+    .modal-bg-2 {
+        background-image: url(winner.png);
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    .modal-text-content {
+        margin: 20% 0% 17% 0%;
+        color: white;
+        text-transform: uppercase;
+        font-size: 1.5rem;
+        font-weight: bold;
+    }
+
+    .modal-footer {
+        border: none;
+        display: flex;
+        justify-content: center;
+    }
+}
+
+/* Tablets devices (tablets, 768px and down) */
+@media only screen and (max-width:769px) {
+
+    .section-1 {
+        content: url(bg.png);
+        height: 184vh;
+        width: 100%;
+        position: relative;
+    }
+
+    .logo {
+        content: url(logo.png);
+        width: 100%;
+        position: absolute;
+        z-index: 1;
+    }
+
+    .header {
+        content: url(banner-cn.png);
+        width: 100%;
+        position: absolute;
+    }
+
+    .btn-1 {
+        position: absolute;
+        width: 87%;
+        margin-top: 115vw;
+        z-index: 1;
+        cursor: pointer;
+        content: url(cta1.png);
+    }
+
+    .wheel-bg {
+        content: url(bg-wheel.png);
+        position: absolute;
+        width: 91%;
+        margin-top: 154vw;
+    }
+
+    .coin-l {
+        content: url(coin1.png);
+        position: absolute;
+        width: 18%;
+        margin-top: 180vw;
+        left: 0vw;
+    }
+
+    .coin-r {
+        content: url(coin2.png);
+        position: absolute;
+        width: 18%;
+        margin-top: 180vw;
+        right: 0vw;
+    }
+
+    .jackpot {
+        content: url(jackpot.png);
+        position: absolute;
+        width: 67%;
+        margin-top: 137vw;
+    }
+
+    .jackpot_amnt {
+        position: absolute;
+        color: #ff8b07;
+        font-weight: bold;
+        font-size: 6.5vw;
+        margin-top: 150vw;
+    }
+
+    .wheel-border {
+        content: url(wheel-border.png);
+        position: absolute;
+        width: 100%;
+        margin-top: 156vw;
+        z-index: 1;
+    }
+
+
+    .bg-wheel {
+        content: url(bg-wheel.png);
+        width: 35vw;
+        position: absolute;
+        margin-top: 4%;
+    }
+
+    .d-wheel {
+        content: url(wheel.png);
+        width: 60%;
+        position: absolute;
+        margin-top: 185.7%;
+        z-index: 2;
+    }
+
+
+    .spin {
+        content: url(spin.png);
+        position: absolute;
+        width: 14%;
+        margin-top: 206vw;
+        cursor: pointer;
+        z-index: 3;
+    }
+
+
+    .d-stand {
+        content: url(stand.png);
+        position: absolute;
+        width: 56vw;
+        height: 24vw;
+        margin-top: 245.6vw;
+    }
+
+    .btn2 {
+        content: url(spin_btn.png);
+        position: absolute;
+        width: 85%;
+        margin-top: 262vw;
+		z-index: 3;
+    }
+
+    .timer {
+        position: absolute;
+        text-align: center;
+        color: white;
+        font-weight: bold;
+        font-size: 3vw;
+        margin-top: 289vw;
+    }
+
+    .payment {
+        content: url(games.png);
+        position: absolute;
+        width: 100%;
+        margin-top: 297vw;
+        margin-bottom: 10vw;
+    }
+
+    .modal-bg-1 {
+        background-image: url(modal_btn_bg.png);
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    .d-modal_btn1 {
+        margin: 38% 0% 5% 0%;
+        width: 40%;
+        cursor: pointer;
+    }
+
+    .d-modal_btn2 {
+        margin-top: -38vw;
+        width: 50vw;
+        cursor: pointer;
+        position: relative;
+        z-index: 1;
+    }
+
+    .modal-bg-2 {
+        background-image: url(winner.png);
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    .modal-text-content {
+        margin: 25vw 0 19vw 0;
+        color: white;
+        text-transform: uppercase;
+        font-size: 3vw;
+    }
+
+    .modal-footer {
+        border: none;
+        display: flex;
+        justify-content: center;
+    }
+
+      #carousel-records {
+        width: 100vw;
+    }
+
+    .carousel-container {
+        margin-top: 310vw;
+        position: absolute;
+    }
+
+    .carousel-container img {
+        width: 80vw;
+    }
+}
+@media only screen and (max-width:425px) {
+	.modal-text-content{
+		font-size: 4vw;
+	}
+	.d-modal_btn2{
+		margin-top: -44vw;
+	}
+}
